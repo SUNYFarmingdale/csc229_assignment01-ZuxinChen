@@ -33,5 +33,32 @@ package com.mycompany.csc229_assignment01;
  * @author MoaathAlrajab
  */
 public class Course {
+    int ID;
+    String name;
+    String code;
+    
+    //default constructor
+    Course(){
+       ID = 0;
+       name = "";
+       code = "";
+        
+    }
+    //overload constructor
+    Course(int i, String n, String c){
+        ID = i;
+        name = n;
+        code =c;
+    }
+    
+    //setters and getters
+    void setID(int I){ this.ID = I; }
+    void setName(String N){this.name = N;}
+    void setCode(String C){this.code = C;}
+    
+    int getID(){ return ID; }
+    String getName(){return name;}
+    String getCode(){return code;}
 
+    
 }
