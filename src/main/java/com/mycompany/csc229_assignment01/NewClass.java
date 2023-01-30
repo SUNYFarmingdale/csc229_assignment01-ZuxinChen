@@ -29,6 +29,7 @@ public class NewClass {
         crs.setCode(code);
         
         //print the ID, name and code by using the getters
+        System.out.println("--------------------");
         System.out.println("ID: "+ crs.getID());
         System.out.println("name: "+ crs.getName());
         System.out.println("code: "+ crs.getCode());
