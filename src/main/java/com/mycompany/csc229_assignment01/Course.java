@@ -39,9 +39,9 @@ public class Course {
     
     //default constructor
     Course(){
-       ID = 0;
-       name = "";
-       code = "";
+       ID = 02153738;
+       name = "Zuxin Chen";
+       code = "CSC229";
         
     }
     //overload constructor
