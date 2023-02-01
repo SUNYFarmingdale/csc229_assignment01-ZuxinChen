@@ -11,7 +11,7 @@ public class NewClass {
     
      public static void main(String[] args) {
         Scanner scnr = new Scanner(System.in); //able to input
-        Course crs = new Course(); // call the Couser class
+        Course crs = new Course(); // call the Couser class and create new one
         int ID;
         String name, code;
         
